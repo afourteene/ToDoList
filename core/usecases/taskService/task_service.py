@@ -1,9 +1,11 @@
-class saveToFile(RepositoryInterface)
 
+
+
+Class TaskService(TaskInterface)
     def __init__(self):
         self.tasks = []
 
-    def save(self, task_data):
+    def create_task(self, task_data):
         code
             x
             x
@@ -12,7 +14,7 @@ class saveToFile(RepositoryInterface)
 
 
 
-    def load(self):
+    def list_tasks(self):
         code
             x
             x
@@ -20,7 +22,7 @@ class saveToFile(RepositoryInterface)
         return
 
 
-    def getAll(self, task_id):
+    def delete_task(self, task_id):
         code
             x
             x

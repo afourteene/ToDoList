@@ -1,4 +1,4 @@
-class TaskUseCase:
+class TaskInterface(ABC):
     def __init__(self):
         self.tasks = []
 

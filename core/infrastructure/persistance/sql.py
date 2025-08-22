@@ -1,7 +1,8 @@
-class saveToFile(RepositoryInterface)
+class saveInSQL(RepositoryInterface)
 
     def __init__(self):
         self.tasks = []
+        sql ro init mikoni 
 
     def save(self, task_data):
         code
