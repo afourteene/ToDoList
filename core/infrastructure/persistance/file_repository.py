@@ -1,28 +1,26 @@
-class saveToFile(RepositoryInterface)
+from core.interfaces import RepositoryInterface
+
+
+class saveToFile(RepositoryInterface):
 
     def __init__(self):
         self.tasks = []
 
     def save(self, task_data):
-        code
-            x
-            x
-            x
+
         return
 
 
 
     def load(self):
-        code
-            x
-            x
-            x
-        return
 
+        return True
+
+    def delete(self, task_id):
+
+        return True
 
     def getAll(self, task_id):
-        code
-            x
-            x
-            x
-        return
+
+        return self.tasks
+    
